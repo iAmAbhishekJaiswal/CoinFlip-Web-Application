@@ -10,7 +10,7 @@ In Coin.js, first random number (between 0 to 1) generate using random.math() th
 Here I also count total flips and total head and tail percentage.
 
 
-Here you will find 3 files :-
+Here you will find 3 source files :-
 
 1) index.html
 2) Coin.js
