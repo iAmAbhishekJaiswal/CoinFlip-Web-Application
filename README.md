@@ -9,8 +9,8 @@ Here I also count total flips and total head and tail percentage.
 Here you will find 3 files :-
 
 1) index.html
-2) Coins.js
-3) coin.mp4
+2) Coin.js
+3) coin1.mp4
 
 I hope you like this web application,
 It is not new , but it is unique ! 
