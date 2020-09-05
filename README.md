@@ -5,7 +5,7 @@
 
 
 Hello everyone, Myself Abhishek Jaiswal, currently pursuing diploma in computer science and engineering from Government Polytechnic Adityapur, Jamshedpur.
-I just started learning CSE, and this is my first Creation.
+This is a coin flip game, which can be use to toss.
 
 Demo : https://tosskaboss.netlify.app/
 
