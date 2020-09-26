@@ -7,7 +7,7 @@
 Hello everyone, Myself Abhishek Jaiswal, currently pursuing diploma in computer science and engineering from Government Polytechnic Adityapur, Jamshedpur.
 This is a coin flip game, which can be use to toss.
 
-Demo : https://tosskaboss.netlify.app/
+Demo : https://iamabhishekjaiswal.github.io/CoinFlip-Web-Application/
 
 In Coin.js, first random number (between 0 to 1) generate using random.math() then I used simple comparison If(number<0.5) Head else Tail.
 Here I also count total flips and total head and tail percentage.
